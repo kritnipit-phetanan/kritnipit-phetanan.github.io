@@ -93,6 +93,11 @@ nav_order: 6
     <span><strong>GitHub:</strong> <a href="https://github.com/kritnipit-phetanan">kritnipit-phetanan</a></span>
   </div>
   
+  <div class="contact-item">
+    <i class="fas fa-graduation-cap"></i>
+    <span><strong>Google Scholar:</strong> <a href="https://scholar.google.com/citations?user=omPT4nsAAAAJ&hl=en">Kritnipit Phetanan</a></span>
+  </div>
+  
   <div class="cv-note">
     <i class="fas fa-file-pdf"></i> <strong>CV:</strong> Available upon request
   </div>

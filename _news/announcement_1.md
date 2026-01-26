@@ -1,8 +1,9 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+title: Graduated from Chulalongkorn University
+date: 2021-07-15
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+🎓 **Aug 2017 - Jul 2021**: Graduated from **Chulalongkorn University** with a Bachelor of Science (BS) in Environmental Science.

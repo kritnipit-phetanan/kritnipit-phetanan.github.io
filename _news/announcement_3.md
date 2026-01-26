@@ -1,8 +1,9 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+title: Paper published in Elsevier
+date: 2024-05-24
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+📄 New paper published: **Enhancing flow rate prediction of the Chao Phraya River Basin using SWAT–LSTM model coupling** in Elsevier.

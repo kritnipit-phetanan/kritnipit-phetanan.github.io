@@ -23,12 +23,14 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-aug-2017-jul-2021-graduated-from-chulalongkorn-university-with-a-bachelor-of-science-bs-in-environmental-science",
+        },{id: "nav-contact",
+          title: "contact",
+          description: "Get in touch with me",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/contact/";
+          },
+        },{id: "news-aug-2017-jul-2021-graduated-from-chulalongkorn-university-with-a-bachelor-of-science-bs-in-environmental-science",
           title: '🎓 Aug 2017 - Jul 2021: Graduated from Chulalongkorn University with a Bachelor...',
           description: "",
           section: "News",},{id: "news-new-paper-published-enhancing-flow-rate-prediction-of-the-chao-phraya-river-basin-using-swat-lstm-model-coupling-in-elsevier",
@@ -77,7 +79,7 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%6B%72%69%74.%70%68%65%74%61%6E%61%6E@%67%6D%61%69%6C.%63%6F%6D", "_blank");
+          window.open("mailto:/%63%6F%6E%74%61%63%74/", "_blank");
         },
       },{
         id: 'social-github',
@@ -92,13 +94,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://www.linkedin.com/in/kritnipit-phetanan", "_blank");
-        },
-      },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/feed.xml", "_blank");
         },
       },{
       id: 'light-theme',

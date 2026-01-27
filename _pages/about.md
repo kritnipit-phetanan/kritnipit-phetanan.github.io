@@ -29,10 +29,7 @@ A **GKS Scholar** holding an M.S. in Environmental Science & Engineering from [U
 
 My research interests include:
 
-🛰️ Remote sensing and satellite imagery analysis
-
-🤖 Deep learning for environmental monitoring
-
-🚁 UAV/drone navigation and localization
-
-🏙️ Urban change detection and compliance monitoring
+- 🛰️ Remote sensing and satellite imagery analysis
+- 🤖 Deep learning for environmental monitoring
+- 🚁 UAV/drone navigation and localization
+- 🏙️ Urban change detection and compliance monitoring

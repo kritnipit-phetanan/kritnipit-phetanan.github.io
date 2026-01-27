@@ -48,9 +48,9 @@ nav_order: 1
           <h6 class="title font-weight-bold ml-1 ml-md-4">Internship Trainee</h6>
           <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem"><a href="https://www.airportthai.co.th/en/" target="_blank">Environmental Management Department, Airports of Thailand Public Company Limited</a></h6>
           <ul class="items">
-            <li><span class="item">Reviewed information in environmental impact assessment reports</span></li>
-            <li><span class="item">Collaborated with experts about compensating for affected households by noise pollution</span></li>
-            <li><span class="item">Visualized graphics depicting project outputs, outcomes, and conclusions</span></li>
+            <li><span class="item"><strong>EIA Analysis</strong>: Reviewed and validated data in Environmental Impact Assessment reports</span></li>
+            <li><span class="item"><strong>Noise Pollution Mitigation</strong>: Collaborated on compensation strategies for households affected by airport noise</span></li>
+            <li><span class="item"><strong>Project Visualization</strong>: Created data visualizations and graphics to communicate project outcomes</span></li>
           </ul>
         </div>
         <div class="col-xs-3 col-sm-3 col-md-3 text-right">

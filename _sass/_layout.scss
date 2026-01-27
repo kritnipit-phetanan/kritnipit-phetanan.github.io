@@ -63,3 +63,12 @@ body.sticky-bottom-footer {
 *****************************************************************************/
 
 // TODO: redefine projects layout.
+.projects {
+  .card-title {
+    min-height: 3.5rem;
+  }
+
+  .card-text {
+    min-height: 4.5rem;
+  }
+}

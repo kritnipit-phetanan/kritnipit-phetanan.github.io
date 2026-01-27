@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /contact/
-title: contact
-description: Get in touch with me
+title: Contact
+description: 
 nav: true
 nav_order: 6
 ---
@@ -105,12 +105,5 @@ nav_order: 6
 
 <div class="connect-section">
   <h2>Let's Connect</h2>
-  <p>I'm always interested in discussing:</p>
-  <ul>
-    <li>AI/ML research collaborations</li>
-    <li>Remote sensing and GIS projects</li>
-    <li>UAV/drone technology applications</li>
-    <li>Innovative geospatial solutions</li>
-  </ul>
-  <p>Feel free to reach out via email for any inquiries or collaboration opportunities!</p>
+  <p>Feel free to reach out via email for any inquiries!</p>
 </div>

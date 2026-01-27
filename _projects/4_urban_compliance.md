@@ -4,7 +4,7 @@ title: Urban Compliance Monitoring System
 description: Geometric change detection for unauthorized structure identification using depth estimation
 img: assets/img/4.jpg
 importance: 4
-category: work
+category: Work
 ---
 
 ## Overview

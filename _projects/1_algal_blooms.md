@@ -4,7 +4,7 @@ title: Algal Blooms & Water Quality Monitoring
 description: Deep learning system for algal blooms detection using SAR remote sensing and computer vision
 img: assets/img/1.jpg
 importance: 1
-category: research
+category: Research
 related_publications: true
 ---
 

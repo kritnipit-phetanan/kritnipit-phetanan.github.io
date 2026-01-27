@@ -4,7 +4,7 @@ title: 3D Change Detection & Damage Assessment
 description: Monocular depth estimation pipelines for urban change detection and conflict damage assessment
 img: assets/img/2.jpg
 importance: 2
-category: work
+category: Work
 ---
 
 ## Overview

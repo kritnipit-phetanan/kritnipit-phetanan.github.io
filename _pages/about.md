@@ -1,6 +1,6 @@
 ---
 layout: about
-title: home
+title: Home
 permalink: /
 subtitle: AI Engineer | Computer Vision | Geospatial Intelligence
 
@@ -15,7 +15,7 @@ social: true
 announcements:
   enabled: true
   scrollable: true
-  limit: 5
+  limit: 10
 
 latest_posts:
   enabled: false

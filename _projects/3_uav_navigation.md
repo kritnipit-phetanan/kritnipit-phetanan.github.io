@@ -4,7 +4,7 @@ title: GNSS-Denied UAV Navigation System
 description: VIO & VPS sensor fusion framework with custom EKF for precise UAV localization
 img: assets/img/3.jpg
 importance: 3
-category: work
+category: Work
 ---
 
 ## Overview

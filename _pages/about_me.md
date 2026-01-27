@@ -7,7 +7,7 @@ nav: true
 nav_order: 1
 ---
 
-## 💼 Experience
+## Experience
 
 <div class="card mt-3 p-3">
   <ul class="card-text font-weight-light list-group list-group-flush">
@@ -15,11 +15,11 @@ nav_order: 1
       <div class="row">
         <div class="col-xs-9 col-sm-9 col-md-9 mt-2 mt-md-0">
           <h6 class="title font-weight-bold ml-1 ml-md-4">AI Engineer</h6>
-          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem"><a href="https://datadesign.engineering/" target="_blank">Data Design Engineering</a></h6>
+          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem"><a href="https://datadesign.engineering/" target="_blank">Data Design Engineering (DDE)</a></h6>
           <ul class="items">
-            <li><span class="item">🛩️ <strong>GNSS-denied UAV Navigation</strong>: VIO & VPS sensor fusion with custom EKF for precise localization</span></li>
-            <li><span class="item">🏙️ <strong>3D Change Detection</strong>: Monocular Depth pipelines for urban/conflict damage assessment</span></li>
-            <li><span class="item">📦 <strong>Vision-Based Inventory</strong>: YOLO + Feature Matching for automated visual auditing</span></li>
+            <li><span class="item"><strong>GNSS-denied UAV Navigation</strong>: VIO & VPS sensor fusion with custom EKF for precise localization</span></li>
+            <li><span class="item"><strong>3D Change Detection</strong>: Monocular Depth pipelines for urban/conflict damage assessment</span></li>
+            <li><span class="item"><strong>Vision-Based Inventory</strong>: YOLO + Feature Matching for automated visual auditing</span></li>
           </ul>
         </div>
         <div class="col-xs-3 col-sm-3 col-md-3 text-right">
@@ -31,10 +31,10 @@ nav_order: 1
       <div class="row">
         <div class="col-xs-9 col-sm-9 col-md-9 mt-2 mt-md-0">
           <h6 class="title font-weight-bold ml-1 ml-md-4">Research Assistant</h6>
-          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem"><a href="https://www.unist.ac.kr/" target="_blank">UNIST</a></h6>
+          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem"><a href="https://www.unist.ac.kr/" target="_blank">Ulsan National Institude of Science and Technology (UNIST)</a></h6>
           <ul class="items">
-            <li><span class="item">🌊 <strong>Algal Blooms Monitoring</strong>: Computer Vision on Sentinel-1 SAR for water resource analysis</span></li>
-            <li><span class="item">📊 <strong>SWAT-LSTM</strong>: Deep Learning integration for enhanced water quality prediction</span></li>
+            <li><span class="item"><strong>Algal Blooms Monitoring</strong>: Computer Vision on Sentinel-1 SAR for water resource analysis</span></li>
+            <li><span class="item"><strong>SWAT-LSTM</strong>: Deep Learning integration for enhanced water quality prediction</span></li>
           </ul>
         </div>
         <div class="col-xs-3 col-sm-3 col-md-3 text-right">
@@ -47,37 +47,37 @@ nav_order: 1
 
 ---
 
-## 🎓 Education
+## Education
 
 <div class="card mt-3 p-3">
   <ul class="card-text font-weight-light list-group list-group-flush">
     <li class="list-group-item">
       <div class="row">
         <div class="col-xs-9 col-sm-9 col-md-9 mt-2 mt-md-0">
-          <h6 class="title font-weight-bold ml-1 ml-md-4">M.S. Environmental Science & Engineering</h6>
-          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem"><a href="https://www.unist.ac.kr/" target="_blank">UNIST</a></h6>
+          <h6 class="title font-weight-bold ml-1 ml-md-4">Master of Science in Environmental Science & Engineering</h6>
+          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem"><a href="https://www.unist.ac.kr/" target="_blank">Ulsan National Institude of Science and Technology (UNIST)</a></h6>
           <ul class="items">
-            <li><span class="item">📝 Thesis: Deep Learning for Surface Water Modeling in River Basins</span></li>
-            <li><span class="item">📈 Laboratory: <a href="https://weilunist.creatorlink.net/" target="_blank">Water-Environmental Informatics Laboratory (WEIL)</a></span></li>
-            <li><span class="item">🏆 GKS Scholar</span></li>
+            <li><span class="item">Thesis: Deep Learning for Surface Water Modeling in River Basins</span></li>
+            <li><span class="item">Laboratory: <a href="https://weilunist.creatorlink.net/" target="_blank">Water-Environmental Informatics Laboratory (WEIL)</a></span></li>
+            <li><span class="item">Scholarship: Global Korea Scholarship (GKS)</span></li>
           </ul>
         </div>
         <div class="col-xs-3 col-sm-3 col-md-3 text-right">
-          <span class="font-weight-bold">Aug 2024</span>
+          <span class="font-weight-bold">Sep 2022 - Aug 2024</span>
         </div>
       </div>
     </li>
     <li class="list-group-item">
       <div class="row">
         <div class="col-xs-9 col-sm-9 col-md-9 mt-2 mt-md-0">
-          <h6 class="title font-weight-bold ml-1 ml-md-4">B.S. Environmental Science</h6>
+          <h6 class="title font-weight-bold ml-1 ml-md-4">Bachelor of Science in Environmental Science</h6>
           <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem"><a href="https://www.chula.ac.th/" target="_blank">Chulalongkorn University</a></h6>
           <ul class="items">
-            <li><span class="item">🏆 2nd Class Honors</span></li>
+            <li><span class="item">Honors: Second Class Honors</span></li>
           </ul>
         </div>
         <div class="col-xs-3 col-sm-3 col-md-3 text-right">
-          <span class="font-weight-bold">Jul 2021</span>
+          <span class="font-weight-bold">Aug 2017 - Jul 2021</span>
         </div>
       </div>
     </li>
@@ -86,7 +86,7 @@ nav_order: 1
 
 ---
 
-## 🛠️ Skills
+## Skills
 
 <div class="row">
   <div class="col-md-4 mb-3">
@@ -98,10 +98,18 @@ nav_order: 1
           <span class="badge badge-light border">MATLAB</span>
           <span class="badge badge-light border">SQL</span>
           <span class="badge badge-light border">R</span>
+          <span class="badge badge-light border">ROS</span>
           <span class="badge badge-light border">PyTorch</span>
           <span class="badge badge-light border">TensorFlow</span>
+          <span class="badge badge-light border">Keras</span>
+          <span class="badge badge-light border">Scikit-learn</span>
           <span class="badge badge-light border">OpenCV</span>
-          <span class="badge badge-light border">ROS</span>
+          <span class="badge badge-light border">NumPy</span>
+          <span class="badge badge-light border">Pandas</span>
+          <span class="badge badge-light border">GeoPandas</span>
+          <span class="badge badge-light border">Rasterio</span>
+          <span class="badge badge-light border">GDAL</span>
+          <span class="badge badge-light border">PCL</span>
         </p>
       </div>
     </div>
@@ -113,10 +121,14 @@ nav_order: 1
          <h6 class="font-weight-bold" style="font-size: 0.95rem"><i class="fas fa-brain"></i> Algorithms</h6>
         <p class="card-text">
           <span class="badge badge-light border">YOLO</span>
-          <span class="badge badge-light border">CNN/LSTM</span>
+          <span class="badge badge-light border">CNN</span>
+          <span class="badge badge-light border">LSTM</span>
           <span class="badge badge-light border">VIO/SLAM</span>
           <span class="badge badge-light border">Depth Estimation</span>
           <span class="badge badge-light border">Kalman Filter</span>
+          <span class="badge badge-light border">Change Detection</span>
+          <span class="badge badge-light border">Feature Matching (SIFT/ORB/xFeat)</span>
+          <span class="badge badge-light border">Image Segmentation (SAM, U-Net)</span>
         </p>
       </div>
     </div>
@@ -130,9 +142,15 @@ nav_order: 1
           <span class="badge badge-light border">Git</span>
           <span class="badge badge-light border">Docker</span>
           <span class="badge badge-light border">Linux</span>
+          <span class="badge badge-light border">RunPod (GPU Cloud)</span>
           <span class="badge badge-light border">QGIS</span>
           <span class="badge badge-light border">ArcGIS</span>
+          <span class="badge badge-light border">SNAP</span>
+          <span class="badge badge-light border">Open3D</span>
+          <span class="badge badge-light border">Nginx</span>
           <span class="badge badge-light border">ONNX</span>
+          <span class="badge badge-light border">TensorRT</span>
+          <span class="badge badge-light border">SWAT</span>
         </p>
       </div>
     </div>

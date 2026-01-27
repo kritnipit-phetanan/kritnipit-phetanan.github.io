@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-📄 New paper published: **Enhancing flow rate prediction of the Chao Phraya River Basin using SWAT–LSTM model coupling** in Elsevier.
+📄 **May 2024**: Published paper on **Enhancing flow rate prediction of the Chao Phraya River Basin using SWAT–LSTM model coupling** in Journal of Hydrology: Regional Studies.

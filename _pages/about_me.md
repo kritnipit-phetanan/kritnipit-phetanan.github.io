@@ -9,111 +9,115 @@ nav_order: 1
 
 ## Experience
 
-<div class="card mt-3 p-3">
-  <ul class="card-text font-weight-light list-group list-group-flush">
-    <li class="list-group-item">
-      <div class="row">
-        <div class="col-xs-9 col-sm-9 col-md-9 mt-2 mt-md-0">
-          <h6 class="title font-weight-bold ml-1 ml-md-4">AI Engineer</h6>
-          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem"><a href="https://datadesign.engineering/" target="_blank">Data Design Engineering (DDE)</a></h6>
-          <ul class="items">
-            <li><span class="item"><strong>GNSS-denied UAV Navigation</strong>: VIO & VPS sensor fusion with custom EKF for precise localization, optimized for edge devices (Raspberry Pi 5/Orange Pi 5)</span></li>
-            <li><span class="item"><strong>3D Change Detection</strong>: Monocular Depth pipelines for urban/conflict damage assessment, deployed via Nginx as a web interface</span></li>
-            <li><span class="item"><strong>Vision-Based Inventory</strong>: YOLO + Feature Matching (SIFT) for automated visual inventory</span></li>
-          </ul>
+<div class="cv">
+  <div class="card mt-3 p-3">
+    <ul class="card-text font-weight-light list-group list-group-flush">
+      <li class="list-group-item">
+        <div class="row">
+          <div class="col-xs-9 col-sm-9 col-md-9 mt-2 mt-md-0">
+            <h6 class="title font-weight-bold ml-1 ml-md-4">AI Engineer</h6>
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem"><a href="https://datadesign.engineering/" target="_blank">Data Design Engineering (DDE)</a></h6>
+            <ul class="items">
+              <li><span class="item"><strong>GNSS-denied UAV Navigation</strong>: VIO & VPS sensor fusion with custom EKF for precise localization, optimized for edge devices (Raspberry Pi 5/Orange Pi 5)</span></li>
+              <li><span class="item"><strong>3D Change Detection</strong>: Monocular Depth pipelines for urban/conflict damage assessment, deployed via Nginx as a web interface</span></li>
+              <li><span class="item"><strong>Vision-Based Inventory</strong>: YOLO + Feature Matching (SIFT) for automated visual inventory</span></li>
+            </ul>
+          </div>
+          <div class="col-xs-3 col-sm-3 col-md-3 text-right">
+            <span class="font-weight-bold">Sep 2024 - Jan 2026</span>
+          </div>
         </div>
-        <div class="col-xs-3 col-sm-3 col-md-3 text-right">
-          <span class="font-weight-bold">Sep 2024 - Jan 2026</span>
+      </li>
+      <li class="list-group-item">
+        <div class="row">
+          <div class="col-xs-9 col-sm-9 col-md-9 mt-2 mt-md-0">
+            <h6 class="title font-weight-bold ml-1 ml-md-4">Research Assistant</h6>
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem"><a href="https://weilunist.creatorlink.net/" target="_blank">Water-Environmental Informatics Laboratory (WEIL)</a></h6>
+            <ul class="items">
+              <li><span class="item"><strong>Algal Blooms & Trace Contaminants Monitoring</strong>: Applied Sentinel-1 (SAR), Sentinel-2 (Optical), for water resource monitoring</span></li>
+              <li><span class="item"><strong>SWAT-LSTM Integration</strong>: Bridged Deep Learning (LSTM) with physical hydrological models (SWAT) for enhanced water quality prediction</span></li>
+              <li><span class="item"><strong>Workshop Mentorship</strong>: Mentored and instructed students for a SWAT modeling workshop, guiding them through model setup, calibration, and practical applications</span></li>
+              <li><span class="item"><strong>Data Benchmarking</strong>: Utilized Python, MATLAB, and GIS tools for large-scale data benchmarking and processing</span></li>
+            </ul>
+          </div>
+          <div class="col-xs-3 col-sm-3 col-md-3 text-right">
+            <span class="font-weight-bold">Sep 2022 - Aug 2024</span>
+          </div>
         </div>
-      </div>
-    </li>
-    <li class="list-group-item">
-      <div class="row">
-        <div class="col-xs-9 col-sm-9 col-md-9 mt-2 mt-md-0">
-          <h6 class="title font-weight-bold ml-1 ml-md-4">Research Assistant</h6>
-          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem"><a href="https://weilunist.creatorlink.net/" target="_blank">Water-Environmental Informatics Laboratory (WEIL)</a></h6>
-          <ul class="items">
-            <li><span class="item"><strong>Algal Blooms & Trace Contaminants Monitoring</strong>: Applied Sentinel-1 (SAR), Sentinel-2 (Optical), for water resource monitoring</span></li>
-            <li><span class="item"><strong>SWAT-LSTM Integration</strong>: Bridged Deep Learning (LSTM) with physical hydrological models (SWAT) for enhanced water quality prediction</span></li>
-            <li><span class="item"><strong>Workshop Mentorship</strong>: Mentored and instructed students for a SWAT modeling workshop, guiding them through model setup, calibration, and practical applications</span></li>
-            <li><span class="item"><strong>Data Benchmarking</strong>: Utilized Python, MATLAB, and GIS tools for large-scale data benchmarking and processing</span></li>
-          </ul>
+      </li>
+      <li class="list-group-item">
+        <div class="row">
+          <div class="col-xs-9 col-sm-9 col-md-9 mt-2 mt-md-0">
+            <h6 class="title font-weight-bold ml-1 ml-md-4">Internship Trainee</h6>
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem"><a href="https://www.airportthai.co.th/en/" target="_blank">Environmental Management Department, Airports of Thailand Public Company Limited</a></h6>
+            <ul class="items">
+              <li><span class="item"><strong>EIA Analysis</strong>: Reviewed and validated data in Environmental Impact Assessment reports</span></li>
+              <li><span class="item"><strong>Noise Pollution Mitigation</strong>: Collaborated on compensation strategies for households affected by airport noise</span></li>
+              <li><span class="item"><strong>Project Visualization</strong>: Created data visualizations and graphics to communicate project outcomes</span></li>
+            </ul>
+          </div>
+          <div class="col-xs-3 col-sm-3 col-md-3 text-right">
+            <span class="font-weight-bold">Jun 2020 - Aug 2020</span>
+          </div>
         </div>
-        <div class="col-xs-3 col-sm-3 col-md-3 text-right">
-          <span class="font-weight-bold">Sep 2022 - Aug 2024</span>
-        </div>
-      </div>
-    </li>
-    <li class="list-group-item">
-      <div class="row">
-        <div class="col-xs-9 col-sm-9 col-md-9 mt-2 mt-md-0">
-          <h6 class="title font-weight-bold ml-1 ml-md-4">Internship Trainee</h6>
-          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem"><a href="https://www.airportthai.co.th/en/" target="_blank">Environmental Management Department, Airports of Thailand Public Company Limited</a></h6>
-          <ul class="items">
-            <li><span class="item"><strong>EIA Analysis</strong>: Reviewed and validated data in Environmental Impact Assessment reports</span></li>
-            <li><span class="item"><strong>Noise Pollution Mitigation</strong>: Collaborated on compensation strategies for households affected by airport noise</span></li>
-            <li><span class="item"><strong>Project Visualization</strong>: Created data visualizations and graphics to communicate project outcomes</span></li>
-          </ul>
-        </div>
-        <div class="col-xs-3 col-sm-3 col-md-3 text-right">
-          <span class="font-weight-bold">Jun 2020 - Aug 2020</span>
-        </div>
-      </div>
-    </li>
-  </ul>
+      </li>
+    </ul>
+  </div>
 </div>
 
 ---
 
 ## Education
 
-<div class="card mt-3 p-3">
-  <ul class="card-text font-weight-light list-group list-group-flush">
-    <li class="list-group-item">
-      <div class="row">
-        <div class="col-xs-9 col-sm-9 col-md-9 mt-2 mt-md-0">
-          <h6 class="title font-weight-bold ml-1 ml-md-4">Master of Science in Environmental Science & Engineering</h6>
-          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem"><a href="https://www.unist.ac.kr/" target="_blank">Ulsan National Institude of Science and Technology (UNIST)</a></h6>
-          <ul class="items">
-            <li><span class="item">Thesis: Deep Learning for Surface Water Modeling in River Basins</span></li>
-            <li><span class="item">Laboratory: <a href="https://weilunist.creatorlink.net/" target="_blank">Water-Environmental Informatics Laboratory (WEIL)</a></span></li>
-            <li><span class="item">Scholarship: <a href="https://www.studyinkorea.go.kr/ko/main.do" target="_blank">Global Korea Scholarship (GKS)</a></span></li>
-          </ul>
+<div class="cv">
+  <div class="card mt-3 p-3">
+    <ul class="card-text font-weight-light list-group list-group-flush">
+      <li class="list-group-item">
+        <div class="row">
+          <div class="col-xs-9 col-sm-9 col-md-9 mt-2 mt-md-0">
+            <h6 class="title font-weight-bold ml-1 ml-md-4">Master of Science in Environmental Science & Engineering</h6>
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem"><a href="https://www.unist.ac.kr/" target="_blank">Ulsan National Institude of Science and Technology (UNIST)</a></h6>
+            <ul class="items">
+              <li><span class="item">Thesis: Deep Learning for Surface Water Modeling in River Basins</span></li>
+              <li><span class="item">Laboratory: <a href="https://weilunist.creatorlink.net/" target="_blank">Water-Environmental Informatics Laboratory (WEIL)</a></span></li>
+              <li><span class="item">Scholarship: <a href="https://www.studyinkorea.go.kr/ko/main.do" target="_blank">Global Korea Scholarship (GKS)</a></span></li>
+            </ul>
+          </div>
+          <div class="col-xs-3 col-sm-3 col-md-3 text-right">
+            <span class="font-weight-bold">Sep 2022 - Aug 2024</span>
+          </div>
         </div>
-        <div class="col-xs-3 col-sm-3 col-md-3 text-right">
-          <span class="font-weight-bold">Sep 2022 - Aug 2024</span>
+      </li>
+      <li class="list-group-item">
+        <div class="row">
+          <div class="col-xs-9 col-sm-9 col-md-9 mt-2 mt-md-0">
+            <h6 class="title font-weight-bold ml-1 ml-md-4">Korean Language and Literature</h6>
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem"><a href="https://www.jejunu.ac.kr/main" target="_blank">Jeju National University</a></h6>
+            <ul class="items">
+              <li><span class="item">Mandatory Course for <a href="https://www.studyinkorea.go.kr/ko/main.do" target="_blank">Global Korea Scholarship (GKS)</a> Student</span></li>
+            </ul>
+          </div>
+          <div class="col-xs-3 col-sm-3 col-md-3 text-right">
+            <span class="font-weight-bold">Aug 2021 - Jul 2022</span>
+          </div>
         </div>
-      </div>
-    </li>
-    <li class="list-group-item">
-      <div class="row">
-        <div class="col-xs-9 col-sm-9 col-md-9 mt-2 mt-md-0">
-          <h6 class="title font-weight-bold ml-1 ml-md-4">Korean Language and Literature</h6>
-          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem"><a href="https://www.jejunu.ac.kr/main" target="_blank">Jeju National University</a></h6>
-          <ul class="items">
-            <li><span class="item">Mandatory Course for <a href="https://www.studyinkorea.go.kr/ko/main.do" target="_blank">Global Korea Scholarship (GKS)</a> Student</span></li>
-          </ul>
+      </li>
+      <li class="list-group-item">
+        <div class="row">
+          <div class="col-xs-9 col-sm-9 col-md-9 mt-2 mt-md-0">
+            <h6 class="title font-weight-bold ml-1 ml-md-4">Bachelor of Science in Environmental Science</h6>
+            <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem"><a href="https://www.chula.ac.th/" target="_blank">Chulalongkorn University</a></h6>
+            <ul class="items">
+              <li><span class="item">Honors: Second Class Honors</span></li>
+            </ul>
+          </div>
+          <div class="col-xs-3 col-sm-3 col-md-3 text-right">
+            <span class="font-weight-bold">Aug 2017 - Jul 2021</span>
+          </div>
         </div>
-        <div class="col-xs-3 col-sm-3 col-md-3 text-right">
-          <span class="font-weight-bold">Aug 2021 - Jul 2022</span>
-        </div>
-      </div>
-    </li>
-    <li class="list-group-item">
-      <div class="row">
-        <div class="col-xs-9 col-sm-9 col-md-9 mt-2 mt-md-0">
-          <h6 class="title font-weight-bold ml-1 ml-md-4">Bachelor of Science in Environmental Science</h6>
-          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem"><a href="https://www.chula.ac.th/" target="_blank">Chulalongkorn University</a></h6>
-          <ul class="items">
-            <li><span class="item">Honors: Second Class Honors</span></li>
-          </ul>
-        </div>
-        <div class="col-xs-3 col-sm-3 col-md-3 text-right">
-          <span class="font-weight-bold">Aug 2017 - Jul 2021</span>
-        </div>
-      </div>
-    </li>
-  </ul>
+      </li>
+    </ul>
+  </div>
 </div>
 
 ---

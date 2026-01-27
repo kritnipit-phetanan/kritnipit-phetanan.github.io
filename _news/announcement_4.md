@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-🚀 **Sep 2024**: Joined **Data Design Engineering** in Seoul, South Korea as an AI Engineer, working on UAV navigation systems, 3D change detection, and computer vision solutions.
+🚀 Joined **Data Design Engineering** in Seoul, South Korea as an AI Engineer, working on UAV navigation systems, 3D change detection, and computer vision solutions.

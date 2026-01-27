@@ -43,16 +43,12 @@ At **UNIST (Sep 2022 - Aug 2024)**, I worked on implementing Computer Vision tec
 
 ## Technologies Used
 
-<div class="technologies">
-
 | Category | Tools |
 |----------|-------|
 | **Deep Learning** | PyTorch, Faster R-CNN, U-Net |
 | **Remote Sensing** | Sentinel-1 SAR, SNAP, GDAL |
 | **GIS** | QGIS, GeoPandas, Rasterio |
 | **Languages** | Python, MATLAB |
-
-</div>
 
 ---
 

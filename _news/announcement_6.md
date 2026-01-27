@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-Completed **M.S. in Environmental Science & Engineering** at UNIST. Thesis: "Deep Learning for Surface Water Modeling and Monitoring in River Basins."
+Completed **M.S. in Environmental Science & Engineering** at **UNIST**. Thesis: "Deep Learning for Surface Water Modeling and Monitoring in River Basins."

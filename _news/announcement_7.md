@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Awarded Global Korea Scholarship (GKS)
-date: 2022-09-01
+date: 2021-06-01
 inline: true
 related_posts: false
 ---

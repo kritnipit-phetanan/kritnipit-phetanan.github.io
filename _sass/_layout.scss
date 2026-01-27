@@ -64,6 +64,11 @@ body.sticky-bottom-footer {
 
 // TODO: redefine projects layout.
 .projects {
+  .card-img-top {
+    height: 250px;
+    object-fit: cover;
+  }
+
   .card-title {
     min-height: 3.5rem;
   }

@@ -17,9 +17,9 @@ nav_order: 1
           <h6 class="title font-weight-bold ml-1 ml-md-4">AI Engineer</h6>
           <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem"><a href="https://datadesign.engineering/" target="_blank">Data Design Engineering (DDE)</a></h6>
           <ul class="items">
-            <li><span class="item"><strong>GNSS-denied UAV Navigation</strong>: VIO & VPS sensor fusion with custom EKF for precise localization</span></li>
-            <li><span class="item"><strong>3D Change Detection</strong>: Monocular Depth pipelines for urban/conflict damage assessment</span></li>
-            <li><span class="item"><strong>Vision-Based Inventory</strong>: YOLO + Feature Matching for automated visual auditing</span></li>
+            <li><span class="item"><strong>GNSS-denied UAV Navigation</strong>: VIO & VPS sensor fusion with custom EKF for precise localization, optimized for edge devices (<strong>Raspberry Pi 5/Orange Pi 5</strong>)</span></li>
+            <li><span class="item"><strong>3D Change Detection</strong>: Monocular Depth pipelines for urban/conflict damage assessment, deployed via <strong>Nginx</strong> as a web interface</span></li>
+            <li><span class="item"><strong>Vision-Based Inventory</strong>: YOLO + Feature Matching (<strong>SIFT</strong>) for automated visual auditing</span></li>
           </ul>
         </div>
         <div class="col-xs-3 col-sm-3 col-md-3 text-right">
@@ -33,8 +33,10 @@ nav_order: 1
           <h6 class="title font-weight-bold ml-1 ml-md-4">Research Assistant</h6>
           <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem"><a href="https://weilunist.creatorlink.net/" target="_blank">Water-Environmental Informatics Laboratory (WEIL)</a></h6>
           <ul class="items">
-            <li><span class="item"><strong>Algal Blooms Monitoring</strong>: Computer Vision on Sentinel-1 SAR for water resource analysis</span></li>
-            <li><span class="item"><strong>SWAT-LSTM</strong>: Deep Learning integration for enhanced water quality prediction</span></li>
+            <li><span class="item"><strong>Algal Blooms Monitoring</strong>: Computer Vision on Sentinel-1 SAR, UAVs, and satellite imagery for water resource analysis</span></li>
+            <li><span class="item"><strong>SWAT-LSTM Integration</strong>: Bridged Deep Learning (LSTM) with physical hydrological models (SWAT) for enhanced water quality prediction</span></li>
+            <li><span class="item"><strong>Workshop Mentorship</strong>: Mentored and instructed students for a SWAT modeling workshop, guiding them through model setup, calibration, and practical applications</span></li>
+            <li><span class="item"><strong>Data Benchmarking</strong>: Utilized Python, MATLAB, and GIS tools for large-scale data benchmarking and processing</span></li>
           </ul>
         </div>
         <div class="col-xs-3 col-sm-3 col-md-3 text-right">

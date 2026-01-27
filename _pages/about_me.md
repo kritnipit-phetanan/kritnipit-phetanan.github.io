@@ -7,26 +7,16 @@ nav: true
 nav_order: 1
 ---
 
----
-layout: page
-permalink: /about/
-title: About
-description:
-nav: true
-nav_order: 1
----
-
 ## 💼 Experience
 
 <div class="card mt-3 p-3">
   <ul class="card-text font-weight-light list-group list-group-flush">
     <li class="list-group-item">
       <div class="row">
-        <div class="col-xs-2 col-sm-2 col-md-2 text-center date-column">
-          <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">2024 - Pres</span>
-          <table class="table-cv"><tbody><tr><td><p class="location"><i class="fa-solid fa-location-dot iconlocation"></i> Seoul</p></td></tr></tbody></table>
+        <div class="col-xs-3 col-sm-3 col-md-3 text-center date-column">
+          <span class="font-weight-bold">Sep 2024 - Jan 2026</span>
         </div>
-        <div class="col-xs-10 col-sm-10 col-md-10 mt-2 mt-md-0">
+        <div class="col-xs-9 col-sm-9 col-md-9 mt-2 mt-md-0">
           <h6 class="title font-weight-bold ml-1 ml-md-4"><a href="https://datadesign.engineering/" target="_blank">AI Engineer</a></h6>
           <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">Data Design Engineering</h6>
           <ul class="items">
@@ -39,11 +29,10 @@ nav_order: 1
     </li>
     <li class="list-group-item">
       <div class="row">
-        <div class="col-xs-2 col-sm-2 col-md-2 text-center date-column">
-          <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">2022 - 2024</span>
-          <table class="table-cv"><tbody><tr><td><p class="location"><i class="fa-solid fa-location-dot iconlocation"></i> Ulsan</p></td></tr></tbody></table>
+        <div class="col-xs-3 col-sm-3 col-md-3 text-center date-column">
+          <span class="font-weight-bold">Sep 2022 - Aug 2024</span>
         </div>
-        <div class="col-xs-10 col-sm-10 col-md-10 mt-2 mt-md-0">
+        <div class="col-xs-9 col-sm-9 col-md-9 mt-2 mt-md-0">
           <h6 class="title font-weight-bold ml-1 ml-md-4"><a href="https://www.unist.ac.kr/" target="_blank">Research Assistant</a></h6>
           <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">UNIST</h6>
           <ul class="items">
@@ -64,11 +53,10 @@ nav_order: 1
   <ul class="card-text font-weight-light list-group list-group-flush">
     <li class="list-group-item">
       <div class="row">
-        <div class="col-xs-2 col-sm-2 col-md-2 text-center date-column">
-          <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">2024</span>
-          <table class="table-cv"><tbody><tr><td><p class="location"><i class="fa-solid fa-location-dot iconlocation"></i> Ulsan</p></td></tr></tbody></table>
+        <div class="col-xs-3 col-sm-3 col-md-3 text-center date-column">
+          <span class="font-weight-bold">Aug 2024</span>
         </div>
-        <div class="col-xs-10 col-sm-10 col-md-10 mt-2 mt-md-0">
+        <div class="col-xs-9 col-sm-9 col-md-9 mt-2 mt-md-0">
           <h6 class="title font-weight-bold ml-1 ml-md-4"><a href="https://www.unist.ac.kr/" target="_blank">M.S. Environmental Science & Engineering</a></h6>
           <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">UNIST</h6>
           <ul class="items">
@@ -81,11 +69,10 @@ nav_order: 1
     </li>
     <li class="list-group-item">
       <div class="row">
-        <div class="col-xs-2 col-sm-2 col-md-2 text-center date-column">
-          <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">2021</span>
-          <table class="table-cv"><tbody><tr><td><p class="location"><i class="fa-solid fa-location-dot iconlocation"></i> Bangkok</p></td></tr></tbody></table>
+        <div class="col-xs-3 col-sm-3 col-md-3 text-center date-column">
+          <span class="font-weight-bold">Jul 2021</span>
         </div>
-        <div class="col-xs-10 col-sm-10 col-md-10 mt-2 mt-md-0">
+        <div class="col-xs-9 col-sm-9 col-md-9 mt-2 mt-md-0">
           <h6 class="title font-weight-bold ml-1 ml-md-4"><a href="https://www.chula.ac.th/" target="_blank">B.S. Environmental Science</a></h6>
           <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">Chulalongkorn University</h6>
           <ul class="items">
@@ -105,19 +92,16 @@ nav_order: 1
   <div class="col-md-4 mb-3">
     <div class="card h-100">
       <div class="card-body">
-        <h5 class="card-title font-weight-bold"><i class="fas fa-code"></i> Languages</h5>
-        <p class="card-text">
-          <span class="badge badge-light border">Python</span>
-          <span class="badge badge-light border">MATLAB</span>
-          <span class="badge badge-light border">SQL</span>
-          <span class="badge badge-light border">R</span>
-        </p>
-        <h5 class="card-title font-weight-bold mt-3"><i class="fas fa-layer-group"></i> Frameworks</h5>
-        <p class="card-text">
-          <span class="badge badge-light border">PyTorch</span>
-          <span class="badge badge-light border">TensorFlow</span>
-          <span class="badge badge-light border">OpenCV</span>
-          <span class="badge badge-light border">ROS</span>
+        <h5 class="card-title font-weight-bold"><i class="fas fa-code"></i> Languages & Frameworks</h5>
+        <p class="card-text" style="font-size: 0.95rem;">
+          <span class="badge badge-light border" style="font-size: inherit;">Python</span>
+          <span class="badge badge-light border" style="font-size: inherit;">MATLAB</span>
+          <span class="badge badge-light border" style="font-size: inherit;">SQL</span>
+          <span class="badge badge-light border" style="font-size: inherit;">R</span>
+          <span class="badge badge-light border" style="font-size: inherit;">PyTorch</span>
+          <span class="badge badge-light border" style="font-size: inherit;">TensorFlow</span>
+          <span class="badge badge-light border" style="font-size: inherit;">OpenCV</span>
+          <span class="badge badge-light border" style="font-size: inherit;">ROS</span>
         </p>
       </div>
     </div>
@@ -127,12 +111,12 @@ nav_order: 1
     <div class="card h-100">
       <div class="card-body">
         <h5 class="card-title font-weight-bold"><i class="fas fa-brain"></i> Algorithms</h5>
-        <p class="card-text">
-          <span class="badge badge-light border">YOLO</span>
-          <span class="badge badge-light border">CNN/LSTM</span>
-          <span class="badge badge-light border">VIO/SLAM</span>
-          <span class="badge badge-light border">Depth Estimation</span>
-          <span class="badge badge-light border">Kalman Filter</span>
+        <p class="card-text" style="font-size: 0.95rem;">
+          <span class="badge badge-light border" style="font-size: inherit;">YOLO</span>
+          <span class="badge badge-light border" style="font-size: inherit;">CNN/LSTM</span>
+          <span class="badge badge-light border" style="font-size: inherit;">VIO/SLAM</span>
+          <span class="badge badge-light border" style="font-size: inherit;">Depth Estimation</span>
+          <span class="badge badge-light border" style="font-size: inherit;">Kalman Filter</span>
         </p>
       </div>
     </div>
@@ -142,13 +126,13 @@ nav_order: 1
     <div class="card h-100">
       <div class="card-body">
         <h5 class="card-title font-weight-bold"><i class="fas fa-tools"></i> Tools</h5>
-        <p class="card-text">
-          <span class="badge badge-light border">Git</span>
-          <span class="badge badge-light border">Docker</span>
-          <span class="badge badge-light border">Linux</span>
-          <span class="badge badge-light border">QGIS</span>
-          <span class="badge badge-light border">ArcGIS</span>
-          <span class="badge badge-light border">ONNX</span>
+        <p class="card-text" style="font-size: 0.95rem;">
+          <span class="badge badge-light border" style="font-size: inherit;">Git</span>
+          <span class="badge badge-light border" style="font-size: inherit;">Docker</span>
+          <span class="badge badge-light border" style="font-size: inherit;">Linux</span>
+          <span class="badge badge-light border" style="font-size: inherit;">QGIS</span>
+          <span class="badge badge-light border" style="font-size: inherit;">ArcGIS</span>
+          <span class="badge badge-light border" style="font-size: inherit;">ONNX</span>
         </p>
       </div>
     </div>

@@ -31,7 +31,7 @@ nav_order: 1
       <div class="row">
         <div class="col-xs-9 col-sm-9 col-md-9 mt-2 mt-md-0">
           <h6 class="title font-weight-bold ml-1 ml-md-4">Research Assistant</h6>
-          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem"><a href="https://www.unist.ac.kr/" target="_blank">Ulsan National Institude of Science and Technology (UNIST)</a></h6>
+          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem"><a href="https://weilunist.creatorlink.net/" target="_blank">Water-Environmental Informatics Laboratory (WEIL)</a></h6>
           <ul class="items">
             <li><span class="item"><strong>Algal Blooms Monitoring</strong>: Computer Vision on Sentinel-1 SAR for water resource analysis</span></li>
             <li><span class="item"><strong>SWAT-LSTM</strong>: Deep Learning integration for enhanced water quality prediction</span></li>
@@ -39,6 +39,22 @@ nav_order: 1
         </div>
         <div class="col-xs-3 col-sm-3 col-md-3 text-right">
           <span class="font-weight-bold">Sep 2022 - Aug 2024</span>
+        </div>
+      </div>
+    </li>
+    <li class="list-group-item">
+      <div class="row">
+        <div class="col-xs-9 col-sm-9 col-md-9 mt-2 mt-md-0">
+          <h6 class="title font-weight-bold ml-1 ml-md-4">Internship Trainee</h6>
+          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem"><a href="https://www.airportthai.co.th/en/" target="_blank">Environmental Management Department, Airports of Thailand Public Company Limited</a></h6>
+          <ul class="items">
+            <li><span class="item">Reviewed information in environmental impact assessment reports</span></li>
+            <li><span class="item">Collaborated with experts about compensating for affected households by noise pollution</span></li>
+            <li><span class="item">Visualized graphics depicting project outputs, outcomes, and conclusions</span></li>
+          </ul>
+        </div>
+        <div class="col-xs-3 col-sm-3 col-md-3 text-right">
+          <span class="font-weight-bold">Jun 2020 - Aug 2020</span>
         </div>
       </div>
     </li>
@@ -59,11 +75,25 @@ nav_order: 1
           <ul class="items">
             <li><span class="item">Thesis: Deep Learning for Surface Water Modeling in River Basins</span></li>
             <li><span class="item">Laboratory: <a href="https://weilunist.creatorlink.net/" target="_blank">Water-Environmental Informatics Laboratory (WEIL)</a></span></li>
-            <li><span class="item">Scholarship: Global Korea Scholarship (GKS)</span></li>
+            <li><span class="item">Scholarship: <a href="https://www.studyinkorea.go.kr/ko/main.do" target="_blank">Global Korea Scholarship (GKS)</a></span></li>
           </ul>
         </div>
         <div class="col-xs-3 col-sm-3 col-md-3 text-right">
           <span class="font-weight-bold">Sep 2022 - Aug 2024</span>
+        </div>
+      </div>
+    </li>
+    <li class="list-group-item">
+      <div class="row">
+        <div class="col-xs-9 col-sm-9 col-md-9 mt-2 mt-md-0">
+          <h6 class="title font-weight-bold ml-1 ml-md-4">Korean Language and Literature</h6>
+          <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem"><a href="https://www.jejunu.ac.kr/main" target="_blank">Jeju National University</a></h6>
+          <ul class="items">
+            <li><span class="item">Mandatory Course for <a href="https://www.studyinkorea.go.kr/ko/main.do" target="_blank">Global Korea Scholarship (GKS)</a> Student</span></li>
+          </ul>
+        </div>
+        <div class="col-xs-3 col-sm-3 col-md-3 text-right">
+          <span class="font-weight-bold">Aug 2021 - Jul 2022</span>
         </div>
       </div>
     </li>

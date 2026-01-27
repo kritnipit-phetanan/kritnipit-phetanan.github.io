@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-📄 Published paper on **SAR remote sensing for monitoring harmful algal blooms using deep learning models** in GIScience & Remote Sensing.
+Published paper on **SAR remote sensing for monitoring harmful algal blooms using deep learning models** in GIScience & Remote Sensing.

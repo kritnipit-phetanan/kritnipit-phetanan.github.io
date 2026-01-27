@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-Presented a poster on environmental engineering innovations at the **Korea Society of Environmental Engineers (KSEE)** conference.
+Presented a poster on environmental issues and innovations at the **Korea Society of Environmental Engineers (KSEE)** conference.

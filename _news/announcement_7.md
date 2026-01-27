@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-Granted the **Global Korea Scholarship (GKS)** by the Korean Government for graduate studies at UNIST, covering tuition and living expenses.
+Granted the **Global Korea Scholarship (GKS)** by the Korean Government for graduate studies at **UNIST**, covering tuition and living expenses.

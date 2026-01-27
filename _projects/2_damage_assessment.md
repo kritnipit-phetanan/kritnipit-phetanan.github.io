@@ -2,7 +2,7 @@
 layout: page
 title: 3D Change Detection & Damage Assessment
 description: Monocular depth estimation pipelines for urban change detection and conflict damage assessment
-img: assets/img/2.jpg
+img: assets/img/war.jpg
 importance: 2
 category: Work
 ---
@@ -10,12 +10,6 @@ category: Work
 ## Overview
 
 Developed an **Automated 3D Change Detection System** using monocular depth estimation to generate Digital Elevation Models (DEMs) for urban and conflict zone damage assessment.
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/2.jpg" title="3D Change Detection" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
 
 ---
 

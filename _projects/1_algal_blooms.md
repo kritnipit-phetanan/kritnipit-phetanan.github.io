@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Algal Blooms & Water Quality Monitoring
+title: Algal Blooms & Trace Contaminants Monitoring
 description: Deep learning system for algal blooms detection using SAR remote sensing and computer vision
-img: assets/img/1.jpg
+img: assets/img/algal.jpg
 importance: 1
 category: Research
 related_publications: true
@@ -14,7 +14,7 @@ Developed an **AI-driven monitoring system** for detecting harmful algal blooms 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="Algal Blooms Detection" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/algal2.jpg" title="Algal Blooms & Trace Contaminants Detection" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 

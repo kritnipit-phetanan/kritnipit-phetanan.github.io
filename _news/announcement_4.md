@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-Joined **Data Design Engineering** in Seoul, South Korea as an **AI Engineer**, working on UAV navigation systems, 3D change detection, and computer vision solutions.
+Joined **Data Design Engineering (DDE)** in Seoul, South Korea as an **AI Engineer**, as a member of computer vision team.

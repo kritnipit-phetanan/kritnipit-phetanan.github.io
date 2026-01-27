@@ -2,7 +2,7 @@
 layout: page
 title: Urban Compliance Monitoring System
 description: Geometric change detection for unauthorized structure identification using depth estimation
-img: assets/img/4.jpg
+img: assets/img/urban.jpg
 importance: 4
 category: Work
 ---
@@ -10,12 +10,6 @@ category: Work
 ## Overview
 
 Developed an **end-to-end surveillance system** to identify unauthorized urban structures by analyzing geometric changes rather than just visual differences.
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/4.jpg" title="Urban Compliance Monitoring" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
 
 ---
 

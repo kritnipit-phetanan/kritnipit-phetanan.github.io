@@ -2,7 +2,7 @@
 layout: page
 title: Vision-Based Library Inventory System
 description: Automated library shelf auditing using YOLO detection and multi-descriptor book identification
-img: assets/img/5.jpg
+img: assets/img/book.jpg
 importance: 5
 category: Work
 ---
@@ -10,12 +10,6 @@ category: Work
 ## Overview
 
 Contributed to the development of an **automated library inventory system** using computer vision for real-time book detection, identification, and shelf auditing.
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="Library Inventory System" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
 
 ---
 

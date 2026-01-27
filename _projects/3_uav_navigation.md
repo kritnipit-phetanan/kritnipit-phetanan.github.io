@@ -2,7 +2,7 @@
 layout: page
 title: GNSS-Denied UAV Navigation System
 description: VIO & VPS sensor fusion framework with custom EKF for precise UAV localization
-img: assets/img/3.jpg
+img: assets/img/drone.jpg
 importance: 3
 category: Work
 ---
@@ -10,12 +10,6 @@ category: Work
 ## Overview
 
 Engineered a **GNSS-denied navigation system** for UAVs, integrating Visual-Inertial Odometry (VIO) and Visual Positioning System (VPS) through a custom Extended Kalman Filter (EKF) for precise localization.
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="UAV Navigation System" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
 
 ---
 

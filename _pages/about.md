@@ -23,13 +23,13 @@ latest_posts:
   limit: 3
 ---
 
-I am an **AI Engineer** with a specialization in **Computer Vision** and **Geospatial Intelligence (GIS)**. My technical focus lies in developing innovative algorithms for **Change Detection**, **Localization**, and **UAV imagery analysis**.
+I am an **AI Engineer** with a specialization in **Computer Vision** and **Geospatial Intelligence (GIS)**. My work focuses on building advanced algorithms for **Change Detection**, **Localization**, and **UAV imagery analysis**.
 
-A **GKS Scholar** holding an M.S. in Environmental Science & Engineering from [UNIST](https://www.unist.ac.kr/), I am **trilingual** (English, Korean, Thai) and eager to apply my technical skills to drive impactful innovation in international settings.
+A **GKS Scholar** holding an M.S. in Environmental Science & Engineering from [UNIST](https://www.unist.ac.kr/), I combine deep technical expertise with a **trilingual** (English, Korean, Thai) to solve complex spatial challenges on a global scale.
 
-My research interests include:
+My research interests are:
 
-- 🛰️ Remote sensing and satellite imagery analysis
-- 🤖 Deep learning for environmental monitoring
-- 🚁 UAV/drone navigation and localization
-- 🏙️ Urban change detection and compliance monitoring
+- Remote sensing and satellite imagery analysis
+- Urban change detection and compliance monitoring
+- UAV/drone navigation and localization
+- Deep learning for environmental monitoring

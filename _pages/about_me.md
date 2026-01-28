@@ -16,7 +16,7 @@ nav_order: 1
         <div class="row">
           <div class="col-xs-9 col-sm-9 col-md-9 mt-2 mt-md-0">
             <div data-toggle="collapse" data-target="#exp-dde" style="cursor: pointer;">
-              <h6 class="title font-weight-bold ml-1 ml-md-4">AI Engineer <span style="font-size: 0.8rem;"><i class="fas fa-chevron-down"></i></span></h6>
+              <h6 class="title font-weight-bold ml-1 ml-md-4">AI Engineer / Computer Vision <span style="font-size: 0.8rem;"><i class="fas fa-chevron-down"></i></span></h6>
               <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem"><a href="https://datadesign.engineering/" target="_blank" onclick="event.stopPropagation()">Data Design Engineering (DDE)</a></h6>
             </div>
             <div id="exp-dde" class="collapse">
@@ -29,6 +29,7 @@ nav_order: 1
           </div>
           <div class="col-xs-3 col-sm-3 col-md-3 text-right">
             <span class="font-weight-bold">Sep 2024 - Jan 2026</span>
+            <div class="location small text-muted">Seoul, South Korea</div>
           </div>
         </div>
       </li>
@@ -50,6 +51,7 @@ nav_order: 1
           </div>
           <div class="col-xs-3 col-sm-3 col-md-3 text-right">
             <span class="font-weight-bold">Sep 2022 - Aug 2024</span>
+            <div class="location small text-muted">Ulsan, South Korea</div>
           </div>
         </div>
       </li>
@@ -70,6 +72,7 @@ nav_order: 1
           </div>
           <div class="col-xs-3 col-sm-3 col-md-3 text-right">
             <span class="font-weight-bold">Jun 2020 - Aug 2020</span>
+            <div class="location small text-muted">Bangkok, Thailand</div>
           </div>
         </div>
       </li>
@@ -101,6 +104,7 @@ nav_order: 1
           </div>
           <div class="col-xs-3 col-sm-3 col-md-3 text-right">
             <span class="font-weight-bold">Sep 2022 - Aug 2024</span>
+            <div class="location small text-muted">Ulsan, South Korea</div>
           </div>
         </div>
       </li>
@@ -119,6 +123,7 @@ nav_order: 1
           </div>
           <div class="col-xs-3 col-sm-3 col-md-3 text-right">
             <span class="font-weight-bold">Aug 2021 - Jul 2022</span>
+            <div class="location small text-muted">Jeju, South Korea</div>
           </div>
         </div>
       </li>
@@ -137,6 +142,7 @@ nav_order: 1
           </div>
           <div class="col-xs-3 col-sm-3 col-md-3 text-right">
             <span class="font-weight-bold">Aug 2017 - Jul 2021</span>
+            <div class="location small text-muted">Bangkok, Thailand</div>
           </div>
         </div>
       </li>

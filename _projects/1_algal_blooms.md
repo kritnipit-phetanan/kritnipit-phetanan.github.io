@@ -5,7 +5,7 @@ description: Deep learning system for algal blooms detection using SAR remote se
 img: assets/img/algal.jpg
 importance: 1
 category: Research
-related_publications: true
+related_publications: false
 ---
 
 ## Overview

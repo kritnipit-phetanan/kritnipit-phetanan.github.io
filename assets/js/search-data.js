@@ -81,11 +81,11 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-algal-blooms-amp-trace-contaminants-monitoring",
           title: 'Algal Blooms &amp;amp; Trace Contaminants Monitoring',
-          description: "Deep learning system for algal blooms detection using SAR remote sensing and computer vision",
+          description: "Deep learning-based algal bloom &amp; trace contaminants detection using SAR imagery",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_algal_blooms/";
-            },},{id: "projects-3d-change-detection-amp-damage-assessment",
-          title: '3D Change Detection &amp;amp; Damage Assessment',
+            },},{id: "projects-automated-3d-conflict-damage-assessment-amp-visualization-system",
+          title: 'Automated 3D Conflict Damage Assessment &amp;amp; Visualization System',
           description: "Monocular depth estimation pipelines for urban change detection and conflict damage assessment",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_damage_assessment/";

@@ -104,6 +104,11 @@ ninja.data = [{
           description: "Automated book identification and placement verification using YOLO and multi-feature analysis",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_library_inventory/";
+            },},{id: "projects-swat-lstm-river-flow-prediction",
+          title: 'SWAT-LSTM River Flow Prediction',
+          description: "AI-Enhanced Hydrological Modeling for the Chao Phraya River Basin",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/6_swat_lstm/";
             },},{
         id: 'social-email',
         title: 'Email',

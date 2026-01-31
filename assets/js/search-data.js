@@ -89,9 +89,9 @@ ninja.data = [{
           description: "Monocular depth estimation pipelines for urban change detection and conflict damage assessment",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_damage_assessment/";
-            },},{id: "projects-gnss-denied-uav-navigation-system",
-          title: 'GNSS-Denied UAV Navigation System',
-          description: "VIO &amp; VPS sensor fusion framework with custom EKF for precise UAV localization",
+            },},{id: "projects-uav-state-estimation-in-gnss-denied-environments",
+          title: 'UAV State Estimation in GNSS-Denied Environments',
+          description: "Sensor fusion pipeline combining Visual-Inertial Odometry (VIO) and Visual Positioning System (VPS) for reliable navigation in GPS-challenged environments",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_uav_navigation/";
             },},{id: "projects-urban-compliance-monitoring-system",

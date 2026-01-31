@@ -90,7 +90,7 @@ graph TD
 | **Vertical Extensions** | Additional floors | Rooftop structures |
 | **Horizontal Extensions** | Building expansion | Side annexes |
 | **New Structures** | Completely new builds | Warehouses, Sheds |
-| **Height Violations** | Exceeding limits | Antenna, tank installations |
+| **Height Violations** | Exceeding limits | Antenna, Tank installations |
 
 ---
 

@@ -96,7 +96,7 @@ ninja.data = [{
               window.location.href = "/projects/3_uav_navigation/";
             },},{id: "projects-urban-compliance-monitoring-system",
           title: 'Urban Compliance Monitoring System',
-          description: "Geometric change detection for unauthorized structure identification using depth estimation",
+          description: "Height change detection for unauthorized structure identification using depth-based analysis",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_urban_compliance/";
             },},{id: "projects-vision-based-library-inventory-system",

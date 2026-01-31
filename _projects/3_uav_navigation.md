@@ -35,10 +35,11 @@ graph TD
 
     subgraph Sensors ["Sensor Inputs"]
         direction LR
-        A(["IMU<br/>(200 Hz)"]) 
-        B(["Camera<br/>(30 fps)"])
+        A(["IMU<br/>(400 Hz)"])
+        B(["Camera<br/>(20 Hz)"])
         C(["Magnetometer<br/>(100 Hz)"])
-        D(["DEM/DSM"])
+        D(["Barometer<br/>(5 Hz)"])
+        P(["DEM<br/>(30 M Resolution)"])
     end
     
     A --> E["IMU Preintegration<br/>(Forster et al.)"]
@@ -52,13 +53,14 @@ graph TD
         I["Visual Odometry<br/>(Relative)"]
         J["VPS Update<br/>(Absolute)"]
         K["Magnetometer<br/>(Yaw)"]
-        L["TRN<br/>(Terrain Matching)"]
+        L["AGL Estimation<br/>(Baro - DEM)"]
     end
     
     H --> I
-    D --> J
+    P --> J
     C --> K
     D --> L
+    P --> L
     
     F --> M["Error-State Kalman Filter<br/>(Position, Velocity, Orientation,<br/>Gyro Bias, Accel Bias, Mag Bias)"]
     I --> M
@@ -68,7 +70,7 @@ graph TD
     
     M --> N(["State Estimate<br/>(Position, Velocity, Attitude)"])
     
-    class A,B,C,D input;
+    class A,B,C,D,P input;
     class E,F,G,H process;
     class I,J,K,L update;
     class M process;
@@ -106,10 +108,10 @@ graph TD
 - **Adaptive innovation gating**: Multi-tier acceptance based on drift time
 - **DEM-based altitude constraint**: Uses terrain data for Z-axis correction
 
-### Terrain Referenced Navigation (TRN)
-- **Profile correlation matching**: Compares measured altitude with DEM terrain
-- **Grid search + refinement**: Efficient position fix computation
-- **Configurable parameters**: Search radius, correlation threshold, update interval
+### AGL (Above Ground Level) Estimation
+- **Barometer-DEM fusion**: Computes AGL = MSL (Barometer) − DEM height at current position
+- **Height constraint update**: Provides Z-axis correction to EKF for altitude drift mitigation
+- **Adaptive noise scaling**: Adjusts measurement uncertainty based on DEM availability and terrain variation
 
 ### Magnetometer Processing
 - **Hard-iron/soft-iron calibration**: Corrects sensor distortions

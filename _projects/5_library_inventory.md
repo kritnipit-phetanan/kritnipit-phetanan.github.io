@@ -14,6 +14,15 @@ mermaid:
 
 Contributed to the development of an **automated library shelf auditing system** using computer vision for real-time book detection, identification, and shelf auditing.
 
+<div class="row mt-3">
+    <div class="col-sm-12 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/IMG_5116.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-12 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/IMG_8990.jpg" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
 ---
 
 ## Project Context

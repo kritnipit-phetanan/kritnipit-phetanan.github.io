@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Vision-Based Library Inventory System
-description: Automated library shelf auditing using YOLO detection and multi-descriptor book identification
+title: Smart Library Shelf Auditing System
+description: Automated book identification and placement verification using YOLO and multi-feature analysis
 img: assets/img/book.jpg
 importance: 5
 category: Work
@@ -9,13 +9,13 @@ category: Work
 
 ## Overview
 
-Contributed to the development of an **automated library inventory system** using computer vision for real-time book detection, identification, and shelf auditing.
+Contributed to the development of an **automated library shelf auditing system** using computer vision for real-time book detection, identification, and shelf auditing.
 
 ---
 
 ## Project Context
 
-At **Data Design Engineering**, I worked on vision-based inventory management solutions, deploying YOLO and feature matching techniques to automate visual auditing workflows.
+I worked on vision-based inventory management solutions, deploying YOLO and feature matching techniques to automate visual auditing workflows.
 
 ---
 
@@ -23,40 +23,40 @@ At **Data Design Engineering**, I worked on vision-based inventory management so
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                       Camera Input                           │
-│                    (Shelf Image/Video)                       │
+│                       Camera Input                          │
+│                    (Shelf Image/Video)                      │
 └──────────────────────────┬──────────────────────────────────┘
                            │
                            ▼
 ┌─────────────────────────────────────────────────────────────┐
-│                    YOLO Book Detection                       │
-│                  (Spine Localization)                        │
+│                    YOLO Book Detection                      │
+│                   (Spine Localization)                      │
 └──────────────────────────┬──────────────────────────────────┘
                            │
               ┌────────────┴────────────┐
               ▼                         ▼
 ┌───────────────────────┐    ┌───────────────────────┐
-│   Data Matrix/ISBN    │    │   Feature-Based       │
-│      Decoding         │    │   Identification      │
-│    (Primary Path)     │    │   (Fallback Path)     │
+│   Data Matrix Decode  │    │   Feature-Based       │
+│    (Primary Path)     │    │    Identification     │
+│                       │    │   (Fallback Path)     │
 └───────────┬───────────┘    └───────────┬───────────┘
             │                            │
             │                ┌───────────┴───────────┐
             │                │   Multi-Descriptor    │
-            │                │      Matching         │
-            │                │  ┌─────┐ ┌─────┐     │
-            │                │  │SIFT │ │ LBP │     │
-            │                │  └─────┘ └─────┘     │
-            │                │  ┌─────┐ ┌─────┐     │
-            │                │  │Gabor│ │ HOG │     │
-            │                │  └─────┘ └─────┘     │
+            │                │       Matching        │
+            │                │  ┌─────┐ ┌─────┐      │
+            │                │  │SIFT │ │ LBP │      │
+            │                │  └─────┘ └─────┘      │
+            │                │  ┌─────┐ ┌─────┐      │
+            │                │  │Gabor│ │ HOG │      │
+            │                │  └─────┘ └─────┘      │
             │                └───────────┬───────────┘
             │                            │
             └────────────┬───────────────┘
                          ▼
 ┌─────────────────────────────────────────────────────────────┐
-│                   Inventory Database                         │
-│           (Status: Present/Missing/Misplaced)                │
+│                     Inventory Database                      │
+│    (Status: Present / Missing / Wrong Order / Misshelved)   │
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -70,7 +70,7 @@ At **Data Design Engineering**, I worked on vision-based inventory management so
 - Works best for books with visible, undamaged barcodes
 
 ### Fallback Path: Feature Matching
-When barcodes are unreadable, the system uses multi-descriptor matching:
+When barcodes are unreadable, the system uses **multi-descriptor matching** with books in database:
 
 | Descriptor | Purpose | Strength |
 |------------|---------|----------|
@@ -87,8 +87,9 @@ When barcodes are unreadable, the system uses multi-descriptor matching:
 |--------|-------------|--------|
 | ✅ **Present** | Book in correct location | No action needed |
 | ❌ **Missing** | Book not found on shelf | Alert librarian |
-| ⚠️ **Misplaced** | Book in wrong location | Generate relocation task |
-| ➕ **Extra** | Unlisted book detected | Add to inventory |
+| ❌ **Wrong Order** | Book in wrong order | Alert librarian |
+| ⚠️ **Misshelved** | Book in wrong location | Alert librarian |
+| ⚠️ **Extra** | Unlisted book detected | Alert librarian |
 
 ---
 
@@ -96,8 +97,8 @@ When barcodes are unreadable, the system uses multi-descriptor matching:
 
 | Category | Tools |
 |----------|-------|
-| **Object Detection** | YOLO v8/v11 |
+| **Object Detection** | YOLO |
 | **Feature Extraction** | SIFT, ORB, LBP, HOG, Gabor |
-| **Barcode** | Data Matrix, ISBN decoding |
+| **Barcode** | Data Matrix |
 | **Framework** | OpenCV, PyTorch |
 | **Languages** | Python |

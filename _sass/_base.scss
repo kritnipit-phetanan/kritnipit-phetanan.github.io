@@ -1555,11 +1555,17 @@ mjx-container[jax="CHTML"][display="true"] {
     transform-origin: top center;
   }
 }
+
 // Dark mode adjustments for Mermaid
 html[data-theme="dark"] {
   .mermaid {
     svg {
-      text, tspan, .nodeLabel, .edgeLabel, .label {
+
+      text,
+      tspan,
+      .nodeLabel,
+      .edgeLabel,
+      .label {
         fill: #ffffff !important;
         color: #ffffff !important;
       }

@@ -29,27 +29,34 @@ graph TD
     classDef input fill:#e1f5fe,stroke:#01579b,stroke-width:2px,color:#000000;
     classDef process fill:#f3e5f5,stroke:#4a148c,stroke-width:2px,color:#000000;
     classDef result fill:#e8f5e9,stroke:#1b5e20,stroke-width:2px,color:#000000;
+    classDef feature fill:#fff3e0,stroke:#e65100,stroke-width:2px,color:#000000;
 
     A(["Camera Input<br/>(Shelf Image/Video)"]) --> B["YOLO Book Detection<br/>(Spine Localization)"]
     
-    B --> C["Data Matrix Decode<br/>(Primary Path)"]
-    B --> D["Feature-Based<br/>Identification<br/>(Fallback Path)"]
+    subgraph Identification ["Identification Methods"]
+        direction LR
+        C["Data Matrix Decode<br/>(Primary Path)"]
+        D["Feature-Based<br/>Identification<br/>(Fallback Path)"]
+    end
+    
+    B --> C
+    B --> D
     
     D --> E["Multi-Descriptor Matching"]
     
-    E --> F["SIFT"]
-    E --> G["LBP"]
-    E --> H["Gabor"]
-    E --> I["HOG"]
+    subgraph Descriptors ["Feature Extractors"]
+        direction LR
+        F["SIFT"] ~~~ G["LBP"] ~~~ H["Gabor"] ~~~ I["HOG"]
+    end
+    
+    E --> Descriptors
     
     C --> J(["Inventory Database<br/>(Present / Missing / Wrong Order / Misshelved)"])
-    F --> J
-    G --> J
-    H --> J
-    I --> J
+    Descriptors --> J
     
     class A input;
     class B,C,D,E process;
+    class F,G,H,I feature;
     class J result;
 ```
 

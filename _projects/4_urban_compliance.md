@@ -35,9 +35,9 @@ Our Approach: We address this limitation by converting 2D images into **depth-de
 ```mermaid
 graph TD
     %% Define Styles
-    classDef input fill:#e1f5fe,stroke:#01579b,stroke-width:2px;
-    classDef process fill:#f3e5f5,stroke:#4a148c,stroke-width:2px;
-    classDef result fill:#e8f5e9,stroke:#1b5e20,stroke-width:2px;
+    classDef input fill:#e1f5fe,stroke:#01579b,stroke-width:2px,color:#000000;
+    classDef process fill:#f3e5f5,stroke:#4a148c,stroke-width:2px,color:#000000;
+    classDef result fill:#e8f5e9,stroke:#1b5e20,stroke-width:2px,color:#000000;
 
     subgraph Reference_Period ["Reference Period (Historical)"]
         direction TB

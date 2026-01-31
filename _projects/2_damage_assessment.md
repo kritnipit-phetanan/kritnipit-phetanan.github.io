@@ -9,7 +9,7 @@ category: Work
 
 ## Overview
 
-Developed an **Automated 3D Damage Assessment System** using monocular depth estimation model to detect changes in 3D for urban and conflict zone damage assessment.
+Developed an **Automated 3D Damage Assessment System** using monocular depth estimation model to detect changes in 3D for urban and conflict zone damage assessment. The primary study areas focused on the **Ukraine-Russia border regions**, including heavily impacted cities such as **Marinka** and **Mariupol**.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

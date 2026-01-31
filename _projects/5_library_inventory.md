@@ -12,7 +12,7 @@ mermaid:
 
 ## Overview
 
-Contributed to the development of an **automated library shelf auditing system** using computer vision for real-time book detection, identification, and shelf auditing.
+Contributed to the development of an **automated library shelf auditing system** using computer vision for real-time book detection, identification, and shelf auditing. This project was developed for the **National Library of Luxembourg (Bibliothèque nationale de Luxembourg)**, enabling efficient visual inventory management across their extensive collection.
 
 <div class="row mt-3">
     <div class="col-sm-12 mt-3 mt-md-0">

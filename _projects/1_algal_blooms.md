@@ -10,7 +10,7 @@ related_publications: false
 
 ## Overview
 
-Developed an **AI-driven monitoring system** for detecting harmful algal blooms and trace contaminants in water systems using Sentinel-1 SAR imagery and deep learning models.
+Developed an **AI-driven monitoring system** for detecting harmful algal blooms and trace contaminants in water systems using Sentinel-1 SAR imagery and deep learning models. This research was conducted in collaboration with **K-water (Korea Water Resources Corporation)**, with the primary study area focused on the **Geum River** basin in South Korea.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

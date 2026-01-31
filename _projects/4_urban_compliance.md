@@ -39,24 +39,24 @@ graph TD
     classDef process fill:#f3e5f5,stroke:#4a148c,stroke-width:2px;
     classDef result fill:#e8f5e9,stroke:#1b5e20,stroke-width:2px;
 
-    subgraph Reference_Period [Reference Period (Historical)]
+    subgraph Reference_Period ["Reference Period (Historical)"]
         direction TB
-        A([Point Clouds]) --> B[DSM Generation<br/>(Rasterization via PDAL)]
-        B --> C[Reference DSM]
+        A(["Point Clouds"]) --> B["DSM Generation<br/>(Rasterization via PDAL)"]
+        B --> C["Reference DSM"]
     end
 
-    subgraph Current_Period [Current Period (Monitoring)]
+    subgraph Current_Period ["Current Period (Monitoring)"]
         direction TB
-        D([RGB Images]) --> E[Depth Estimation Model<br/>(Depth-Anything)]
-        E --> F[Height Map Generation]
+        D(["RGB Images"]) --> E["Depth Estimation Model<br/>(Depth-Anything)"]
+        E --> F["Height Map Generation"]
     end
 
     %% Merging the flows
     C --> G
     F --> G
 
-    G[Height Difference Analysis] --> H[Segmentation<br/>(OpenCV Connected Components)]
-    H --> I([Unauthorized Structure<br/>Detection])
+    G["Height Difference Analysis"] --> H["Segmentation<br/>(OpenCV Connected Components)"]
+    H --> I(["Unauthorized Structure<br/>Detection"])
 
     %% Apply Styles
     class A,D input;

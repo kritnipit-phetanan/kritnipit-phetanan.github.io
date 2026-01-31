@@ -99,9 +99,9 @@ ninja.data = [{
           description: "Height change detection for unauthorized structure identification using depth-based analysis",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_urban_compliance/";
-            },},{id: "projects-vision-based-library-inventory-system",
-          title: 'Vision-Based Library Inventory System',
-          description: "Automated library shelf auditing using YOLO detection and multi-descriptor book identification",
+            },},{id: "projects-smart-library-shelf-auditing-system",
+          title: 'Smart Library Shelf Auditing System',
+          description: "Automated book identification and placement verification using YOLO and multi-feature analysis",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_library_inventory/";
             },},{

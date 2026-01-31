@@ -5,6 +5,10 @@ description: Height change detection for unauthorized structure identification u
 img: assets/img/urban.jpg
 importance: 4
 category: Work
+mermaid:
+  enabled: true
+  zoomable: true
+  use_MathJax: false
 ---
 
 ## Overview
@@ -28,7 +32,7 @@ Our Approach: We address this limitation by converting 2D images into **depth-de
 
 ## Technical Pipeline
 
-<div class="mermaid">
+```mermaid
 graph TD
     %% Define Styles
     classDef input fill:#e1f5fe,stroke:#01579b,stroke-width:2px;
@@ -58,7 +62,7 @@ graph TD
     class A,D input;
     class B,E,G,H process;
     class C,F,I result;
-</div>
+```
 
 ### Process Breakdown
 

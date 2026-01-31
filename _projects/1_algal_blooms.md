@@ -56,3 +56,5 @@ At **UNIST**, I worked on implementing deep learning techniques on Sentinel-1 SA
 
 This research contributed to:
 - **SAR remote sensing for monitoring harmful algal blooms using deep learning models** - GIScience & Remote Sensing, 2025
+
+DOI: [10.1080/15481603.2025.2524202](https://doi.org/10.1080/15481603.2025.2524202)

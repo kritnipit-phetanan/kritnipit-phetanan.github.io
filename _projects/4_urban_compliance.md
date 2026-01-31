@@ -13,7 +13,7 @@ mermaid:
 
 ## Overview
 
-Developed an **end-to-end surveillance system** to identify unauthorized urban structures by analyzing height variations rather than just visual differences. The study area was **Mertzig, Luxembourg**, utilizing aerial imagery and point cloud data provided by the **Government of the Grand Duchy of Luxembourg** — specifically the *Administration du cadastre et de la topographie* (Cadastre and Topography Administration), *Département de l'information du territoire* (Territorial Information Department), and *Service gestion des géodonnées* (Geodata Management Service).
+Developed an **end-to-end surveillance system** to identify unauthorized urban structures by analyzing height variations rather than just visual differences. The study area was **Mertzig, Luxembourg**, utilizing aerial imagery and point cloud data provided by the **Government of the Grand Duchy of Luxembourg** — specifically the *Cadastre and Topography Administration*, *Territorial Information Department*, and *Geodata Management Service*.
 
 ---
 

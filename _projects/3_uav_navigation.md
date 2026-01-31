@@ -12,7 +12,7 @@ mermaid:
 
 ## Overview
 
-Developed a modular **Visual-Inertial Odometry (VIO)** framework integrated with **Visual Positioning System (VPS)** using a custom **Error-State Extended Kalman Filter (ESKF)** for UAV navigation in GNSS-denied environments.
+Developed a modular **Visual-Inertial Odometry (VIO)** framework integrated with **Visual Positioning System (VPS)** using a custom **Error-State Extended Kalman Filter (ESKF)** for UAV navigation in GNSS-denied environments. This system is designed primarily for **conflict zones** and areas affected by **GPS jamming or anti-spoofing attacks**, enabling reliable autonomous flight where satellite navigation is unavailable or compromised.
 
 ---
 

@@ -176,6 +176,7 @@ nav_order: 1
           <span class="badge badge-light border">Rasterio</span>
           <span class="badge badge-light border">GDAL</span>
           <span class="badge badge-light border">PCL</span>
+          <span class="badge badge-light border">PyTest</span>
         </p>
       </div>
     </div>
@@ -206,6 +207,7 @@ nav_order: 1
          <h6 class="font-weight-bold" style="font-size: 0.95rem"><i class="fas fa-tools"></i> Tools</h6>
         <p class="card-text">
           <span class="badge badge-light border">Git</span>
+          <span class="badge badge-light border">AWS (S3, EC2)</span>
           <span class="badge badge-light border">Docker</span>
           <span class="badge badge-light border">Linux</span>
           <span class="badge badge-light border">RunPod (GPU Cloud)</span>

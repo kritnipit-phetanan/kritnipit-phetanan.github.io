@@ -113,6 +113,7 @@
         "TensorFlow",
         "Keras",
         "Scikit-learn",
+        "PyTest",
         "OpenCV",
         "NumPy",
         "Pandas"
@@ -140,6 +141,7 @@
       "icon": "fa-solid fa-tools",
       "keywords": [
         "Git",
+        "AWS (S3, EC2)",
         "Docker",
         "Linux",
         "QGIS",

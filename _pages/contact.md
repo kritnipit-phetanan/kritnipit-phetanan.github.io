@@ -67,6 +67,9 @@ nav_order: 6
   left: 0;
   color: #3498db;
 }
+.contact-item span, .contact-item strong, .cv-note, .cv-note strong {
+  color: #2c3e50;
+}
 </style>
 
 <div class="contact-card">

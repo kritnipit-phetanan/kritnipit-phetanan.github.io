@@ -23,12 +23,13 @@ latest_posts:
   limit: 3
 ---
 
-I am an **AI Engineer** with a specialization in **Computer Vision** and **Geospatial Intelligence (GIS)**. My work focuses on building advanced algorithms for **Change Detection**, **Localization**, and **UAV imagery analysis**.
+I am a **Data-Driven AI Engineer** combining a background in **Computer Vision** and **Geospatial Intelligence (GIS)** with practical capabilities in building **end-to-end systems**. My current focus is on developing advanced **RAG applications** and **LLM orchestration workflows**.
 
-A **GKS Scholar** holding an M.S. in Environmental Science & Engineering from [UNIST](https://www.unist.ac.kr/), I combine deep technical expertise with a **trilingual** (English, Korean, Thai) to solve complex spatial challenges on a global scale.
+A **GKS Scholar** holding an M.S. in Environmental Science & Engineering from [UNIST](https://www.unist.ac.kr/), I am **trilingual** (English, Korean, Thai) and dedicated to bridging the gap between **advanced research and production engineering**, seamlessly integrating academic insights with modern architectures.
 
-My research interests are:
+My research and technical interests include:
 
+- Advanced RAG applications and LLM orchestration
 - Remote sensing and satellite imagery analysis
 - Urban change detection and compliance monitoring
 - UAV/drone navigation and localization

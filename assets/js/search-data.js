@@ -109,6 +109,11 @@ ninja.data = [{
           description: "AI-Enhanced Hydrological Modeling for the Chao Phraya River Basin",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_swat_lstm/";
+            },},{id: "projects-jobmatcher",
+          title: 'JobMatcher',
+          description: "AI-Powered Resume to Job Matching &amp; Analytics Platform",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/7_job_match/";
             },},{
         id: 'social-email',
         title: 'Email',

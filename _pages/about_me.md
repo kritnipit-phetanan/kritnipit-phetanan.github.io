@@ -161,10 +161,9 @@ nav_order: 1
         <h6 class="font-weight-bold" style="font-size: 0.95rem"><i class="fas fa-code"></i> Languages & Frameworks</h6>
         <p class="card-text">
           <span class="badge badge-light border">Python</span>
-          <span class="badge badge-light border">MATLAB</span>
           <span class="badge badge-light border">SQL</span>
-          <span class="badge badge-light border">R</span>
-          <span class="badge badge-light border">ROS</span>
+          <span class="badge badge-light border">FastAPI</span>
+          <span class="badge badge-light border">Pydantic</span>
           <span class="badge badge-light border">PyTorch</span>
           <span class="badge badge-light border">TensorFlow</span>
           <span class="badge badge-light border">Keras</span>
@@ -172,10 +171,15 @@ nav_order: 1
           <span class="badge badge-light border">OpenCV</span>
           <span class="badge badge-light border">NumPy</span>
           <span class="badge badge-light border">Pandas</span>
+          <span class="badge badge-light border">Next.js</span>
+          <span class="badge badge-light border">Playwright</span>
+          <span class="badge badge-light border">ROS</span>
           <span class="badge badge-light border">GeoPandas</span>
           <span class="badge badge-light border">Rasterio</span>
           <span class="badge badge-light border">GDAL</span>
           <span class="badge badge-light border">PCL</span>
+          <span class="badge badge-light border">MATLAB</span>
+          <span class="badge badge-light border">R</span>
           <span class="badge badge-light border">PyTest</span>
         </p>
       </div>
@@ -190,12 +194,17 @@ nav_order: 1
           <span class="badge badge-light border">YOLO</span>
           <span class="badge badge-light border">CNN</span>
           <span class="badge badge-light border">LSTM</span>
+          <span class="badge badge-light border">GAN</span>
+          <span class="badge badge-light border">RAG</span>
+          <span class="badge badge-light border">Ollama/Gemini API</span>
+          <span class="badge badge-light border">Prompt Engineering</span>
+          <span class="badge badge-light border">Vector Embeddings</span>
+          <span class="badge badge-light border">Image Segmentation (SAM, U-Net)</span>
           <span class="badge badge-light border">VIO/SLAM</span>
-          <span class="badge badge-light border">Depth Estimation</span>
           <span class="badge badge-light border">Kalman Filter</span>
+          <span class="badge badge-light border">Depth Estimation</span>
           <span class="badge badge-light border">Change Detection</span>
           <span class="badge badge-light border">Feature Matching (SIFT/ORB/xFeat)</span>
-          <span class="badge badge-light border">Image Segmentation (SAM, U-Net)</span>
         </p>
       </div>
     </div>
@@ -204,20 +213,25 @@ nav_order: 1
   <div class="col-md-4 mb-3">
     <div class="card h-100">
       <div class="card-body">
-         <h6 class="font-weight-bold" style="font-size: 0.95rem"><i class="fas fa-tools"></i> Tools</h6>
+         <h6 class="font-weight-bold" style="font-size: 0.95rem"><i class="fas fa-tools"></i> Developer Tools</h6>
         <p class="card-text">
-          <span class="badge badge-light border">Git</span>
+          <span class="badge badge-light border">Azure (ADF, Synapse, Databricks, ADLS Gen2)</span>
           <span class="badge badge-light border">AWS (S3, EC2)</span>
+          <span class="badge badge-light border">PostgreSQL</span>
+          <span class="badge badge-light border">pgvector</span>
           <span class="badge badge-light border">Docker</span>
+          <span class="badge badge-light border">Git</span>
+          <span class="badge badge-light border">CI/CD</span>
           <span class="badge badge-light border">Linux</span>
+          <span class="badge badge-light border">ONNX</span>
+          <span class="badge badge-light border">TensorRT</span>
           <span class="badge badge-light border">RunPod (GPU Cloud)</span>
+          <span class="badge badge-light border">RESTful APIs</span>
+          <span class="badge badge-light border">Nginx</span>
           <span class="badge badge-light border">QGIS</span>
           <span class="badge badge-light border">ArcGIS</span>
           <span class="badge badge-light border">SNAP</span>
           <span class="badge badge-light border">Open3D</span>
-          <span class="badge badge-light border">Nginx</span>
-          <span class="badge badge-light border">ONNX</span>
-          <span class="badge badge-light border">TensorRT</span>
           <span class="badge badge-light border">SWAT</span>
         </p>
       </div>

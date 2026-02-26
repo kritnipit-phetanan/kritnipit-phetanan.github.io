@@ -105,18 +105,26 @@
       "icon": "fa-solid fa-code",
       "keywords": [
         "Python",
-        "MATLAB",
         "SQL",
-        "R",
-        "ROS",
+        "FastAPI",
+        "Pydantic",
         "PyTorch",
         "TensorFlow",
         "Keras",
         "Scikit-learn",
-        "PyTest",
         "OpenCV",
         "NumPy",
-        "Pandas"
+        "Pandas",
+        "Next.js",
+        "Playwright",
+        "ROS",
+        "GeoPandas",
+        "Rasterio",
+        "GDAL",
+        "PCL",
+        "MATLAB",
+        "R",
+        "PyTest"
       ]
     },
     {
@@ -127,12 +135,17 @@
         "YOLO",
         "CNN",
         "LSTM",
+        "GAN",
+        "RAG",
+        "Ollama/Gemini API",
+        "Prompt Engineering",
+        "Vector Embeddings",
+        "Image Segmentation (SAM, U-Net)",
         "VIO/SLAM",
-        "Depth Estimation",
         "Kalman Filter",
+        "Depth Estimation",
         "Change Detection",
-        "Feature Matching (SIFT/ORB)",
-        "Image Segmentation (SAM, U-Net)"
+        "Feature Matching (SIFT/ORB/xFeat)"
       ]
     },
     {
@@ -140,17 +153,24 @@
       "level": "Advanced",
       "icon": "fa-solid fa-tools",
       "keywords": [
-        "Git",
+        "Azure (ADF, Synapse, Databricks, ADLS Gen2)",
         "AWS (S3, EC2)",
+        "PostgreSQL",
+        "pgvector",
         "Docker",
+        "Git",
+        "CI/CD",
         "Linux",
+        "ONNX",
+        "TensorRT",
+        "RunPod (GPU Cloud)",
+        "RESTful APIs",
+        "Nginx",
         "QGIS",
         "ArcGIS",
         "SNAP",
         "Open3D",
-        "Nginx",
-        "ONNX",
-        "TensorRT"
+        "SWAT"
       ]
     }
   ],

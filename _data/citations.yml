@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-27'
+  last_updated: '2026-05-18'
 papers:
   omPT4nsAAAAJ:9yKSN-GCB0IC:
     citations: 0
@@ -10,10 +10,10 @@ papers:
     title: "SAR \uC6D0\uACA9\uD0D0\uC0AC\uB97C \uC801\uC6A9\uD55C \uB525\uB7EC\uB2DD \uAE30\uBC18 \uB179\uC870 \uD0D0\uC9C0 \uC54C\uACE0\uB9AC\uC998 \uAC1C\uBC1C"
     year: '2024'
   omPT4nsAAAAJ:u-x6o8ySG0sC:
-    citations: 3
+    citations: 4
     title: SAR remote sensing for monitoring harmful algal blooms using deep learning models
     year: '2025'
   omPT4nsAAAAJ:u5HHmVD_uO8C:
-    citations: 34
+    citations: 36
     title: "Enhancing flow rate prediction of the Chao Phraya River Basin using SWAT\u2013LSTM model coupling"
     year: '2024'

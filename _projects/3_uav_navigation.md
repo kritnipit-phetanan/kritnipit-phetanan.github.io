@@ -3,7 +3,7 @@ layout: page
 title: UAV State Estimation in GNSS-Denied Environments
 description: Sensor fusion pipeline combining Visual-Inertial Odometry (VIO) and Visual Positioning System (VPS) for reliable navigation in GPS-challenged environments
 img: assets/img/drone.jpg
-importance: 3
+importance: 6
 category: Work
 mermaid:
   enabled: true
@@ -138,6 +138,7 @@ graph TD
 | **IMU Processing** | On-manifold preintegration, bias estimation |
 | **Terrain Data** | GDAL/rasterio for DEM/DSM processing |
 | **Coordinate Systems** | pyproj for UTM/lat-lon conversions |
+| **Robotics Middleware** | ROS |
 | **Languages** | Python (primary), C++ (drivers) |
 
 ---

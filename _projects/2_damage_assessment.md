@@ -3,7 +3,7 @@ layout: page
 title: Automated 3D Conflict Damage Assessment & Visualization System
 description: Monocular depth estimation pipelines for urban change detection and conflict damage assessment
 img: assets/img/war.jpg
-importance: 2
+importance: 5
 category: Work
 ---
 

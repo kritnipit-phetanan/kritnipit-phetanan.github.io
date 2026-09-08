@@ -3,7 +3,7 @@ layout: page
 title: Urban Compliance Monitoring System
 description: Height change detection for unauthorized structure identification using depth-based analysis
 img: assets/img/urban.jpg
-importance: 4
+importance: 7
 category: Work
 mermaid:
   enabled: true
@@ -107,7 +107,7 @@ graph TD
 | Category | Tools |
 |----------|-------|
 | **Depth Estimation** | Depth-Anything, OpenCV |
-| **Point Cloud & 3D Processing** | Open3D, PDAL, NumPy |
+| **Point Cloud & 3D Processing** | Open3D, PDAL, PCL, NumPy |
 | **Geospatial Analysis** | GDAL, Rasterio, GeoPandas |
 | **Visualization** | Three.js, QGIS, Matplotlib |
 | **Languages** | Python |

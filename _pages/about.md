@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle: AI Engineer | Computer Vision | Geospatial Intelligence
+subtitle: AI Engineer | Agentic Systems | Computer Vision & Geospatial AI
 
 profile:
   align: right
@@ -23,13 +23,15 @@ latest_posts:
   limit: 3
 ---
 
-I am a **Data-Driven AI Engineer** combining a background in **Computer Vision** and **Geospatial Intelligence (GIS)** with practical capabilities in building **end-to-end systems**. My current focus is on developing advanced **RAG applications** and **LLM orchestration workflows**.
+I am an **AI Engineer** with a background in **Computer Vision** and **Geospatial Intelligence (GIS)**, along with practical experience building **production AI systems**, spanning **MLOps pipelines** and **cloud infrastructure**. My current focus is on **agent orchestration** and **AgentOps** for building automated AI systems that are **observable, scalable, maintainable, and traceable end to end**.
 
-A **GKS Scholar** holding an M.S. in Environmental Science & Engineering from [UNIST](https://www.unist.ac.kr/), I am **trilingual** (English, Korean, Thai) and dedicated to bridging the gap between **advanced research and production engineering**, seamlessly integrating academic insights with modern architectures.
+A **GKS Scholar** holding an M.S. in Environmental Science & Engineering from [UNIST](https://www.unist.ac.kr/), I am **trilingual** (English, Korean, Thai) and interested in bridging the gap between **advanced research and production engineering**, applying research insights through modern AI architectures.
 
 My research and technical interests include:
 
-- Advanced RAG applications and LLM orchestration
+- Agent orchestration, automation, and AgentOps
+- Advanced RAG and LLM-based applications
+- AIoT and computer vision with IoT sensors and CCTV networks
 - Remote sensing and satellite imagery analysis
 - Urban change detection and compliance monitoring
 - UAV/drone navigation and localization

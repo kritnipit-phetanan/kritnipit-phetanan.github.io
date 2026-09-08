@@ -1572,3 +1572,9 @@ html[data-theme="dark"] {
     }
   }
 }
+
+// Distributed/justified paragraph text on the homepage bio
+.justified-text p {
+  text-align: justify;
+  text-justify: inter-word;
+}

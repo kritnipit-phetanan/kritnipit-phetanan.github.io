@@ -3,7 +3,7 @@ layout: page
 title: Smart Library Shelf Auditing System
 description: Automated book identification and placement verification using YOLO and multi-feature analysis
 img: assets/img/book.jpg
-importance: 5
+importance: 8
 category: Work
 mermaid:
   enabled: true
@@ -110,4 +110,5 @@ When barcodes are unreadable, the system uses **multi-descriptor matching** with
 | **Feature Extraction** | SIFT, ORB, LBP, HOG, Gabor |
 | **Barcode** | Data Matrix |
 | **Framework** | OpenCV, PyTorch |
+| **Inference Optimization** | ONNX, TensorRT |
 | **Languages** | Python |

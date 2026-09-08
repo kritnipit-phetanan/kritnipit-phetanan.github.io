@@ -3,7 +3,7 @@ layout: page
 title: JobMatcher
 description: AI-Powered Resume to Job Matching & Analytics Platform
 img: assets/img/jobs.jpg
-importance: 1
+importance: 3
 category: Personal
 related_publications: false
 ---

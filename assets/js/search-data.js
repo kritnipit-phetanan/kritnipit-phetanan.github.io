@@ -79,7 +79,33 @@ ninja.data = [{
           section: "News",},{id: "news-published-paper-on-sar-remote-sensing-for-monitoring-harmful-algal-blooms-using-deep-learning-models-in-giscience-amp-amp-remote-sensing",
           title: 'Published paper on SAR remote sensing for monitoring harmful algal blooms using deep...',
           description: "",
-          section: "News",},{id: "projects-algal-blooms-amp-trace-contaminants-monitoring",
+          section: "News",},{id: "news-joined-swift-dynamics-swd-in-bangkok-thailand-as-an-ai-engineer-as-a-member-of-the-aiot-team",
+          title: 'Joined Swift Dynamics (SWD) in Bangkok, Thailand as an AI Engineer, as a...',
+          description: "",
+          section: "News",},{id: "news-joined-siam-cement-group-scg-in-bangkok-thailand-as-an-ai-engineer-as-a-member-of-the-data-analytics-and-ai-engineering-team",
+          title: 'Joined Siam Cement Group (SCG) in Bangkok, Thailand as an AI Engineer, as...',
+          description: "",
+          section: "News",},{id: "projects-automated-food-packaging-layout-inspection",
+          title: 'Automated Food-Packaging Layout Inspection',
+          description: "Computer vision system verifying food-packaging layout on a production line",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/10_food_packaging_inspection/";
+            },},{id: "projects-intelligent-faq-chatbot-migration-to-serverless",
+          title: 'Intelligent FAQ Chatbot Migration to Serverless',
+          description: "Migrated a legacy chatbot&#39;s matching engine off constrained CMS hosting to AWS Lambda",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/11_rag_chatbot/";
+            },},{id: "projects-eatarai-เมื่อไรจะไปกิน",
+          title: 'Eatarai (เมื่อไรจะไปกิน)',
+          description: "LINE bot for tracking a shared restaurant wishlist across groups, rooms, and direct chats",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/12_eatarai/";
+            },},{id: "projects-ai-anime-sommelier",
+          title: 'AI Anime Sommelier',
+          description: "Personalized anime recommendation chatbot built on a multi-agent RAG pipeline (Ongoing)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/13_ai_anime_sommelier/";
+            },},{id: "projects-algal-blooms-amp-trace-contaminants-monitoring",
           title: 'Algal Blooms &amp;amp; Trace Contaminants Monitoring',
           description: "Deep learning-based algal bloom &amp; trace contaminants detection using SAR imagery",
           section: "Projects",handler: () => {
@@ -114,6 +140,16 @@ ninja.data = [{
           description: "AI-Powered Resume to Job Matching &amp; Analytics Platform",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_job_match/";
+            },},{id: "projects-mlops-pipeline-for-satellite-object-detection",
+          title: 'MLOps Pipeline for Satellite Object Detection',
+          description: "End-to-end MLOps pipeline on GCP for a satellite-imagery object detection platform",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/8_satellite_mlops/";
+            },},{id: "projects-real-time-cctv-safety-compliance-analytics",
+          title: 'Real-Time CCTV Safety Compliance Analytics',
+          description: "Multi-camera, real-time RTSP video analytics for industrial safety compliance",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/9_cctv_safety/";
             },},{
         id: 'social-email',
         title: 'Email',

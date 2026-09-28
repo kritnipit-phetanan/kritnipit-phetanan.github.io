@@ -12,8 +12,8 @@ related_publications: false
 
 Built **Eatarai** (เมื่อไรจะไปกิน — "When are we going to eat?"), a LINE bot for keeping a shared restaurant wishlist. Each LINE group, room, and direct chat has its own list. People can add restaurants, remove them after a visit, and open saved locations in Google Maps from the shared list.
 
-<div class="row">
-    <div class="col-sm-8 offset-sm-2 mt-3 mt-md-0">
+<div class="row justify-content-center">
+    <div class="col-10 col-sm-7 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/eatarai_wishlist.png" title="Eatarai restaurant wishlist in LINE" alt="LINE message showing a shared restaurant wishlist with Google Maps links" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>

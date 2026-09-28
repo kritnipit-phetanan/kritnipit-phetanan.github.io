@@ -97,7 +97,7 @@ ninja.data = [{
               window.location.href = "/projects/11_rag_chatbot/";
             },},{id: "projects-eatarai-เมื่อไรจะไปกิน",
           title: 'Eatarai (เมื่อไรจะไปกิน)',
-          description: "LINE bot for tracking a shared restaurant wishlist across groups, rooms, and direct chats",
+          description: "LINE bot for shared restaurant wishlists with LIFF and Google Maps links",
           section: "Projects",handler: () => {
               window.location.href = "/projects/12_eatarai/";
             },},{id: "projects-ai-anime-sommelier",

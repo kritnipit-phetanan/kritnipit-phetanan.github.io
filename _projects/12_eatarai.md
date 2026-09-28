@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Eatarai (เมื่อไรจะไปกิน)
-description: LINE bot for tracking a shared restaurant wishlist across groups, rooms, and direct chats
-img: assets/img/eatarai.jpg
+description: LINE bot for shared restaurant wishlists with LIFF and Google Maps links
+img: assets/img/eatarai_logo.png
 importance: 1
 category: Personal
 related_publications: false
@@ -10,7 +10,16 @@ related_publications: false
 
 ## Overview
 
-Built **Eatarai** (เมื่อไรจะไปกิน — "When are we going to eat?"), a LINE bot that lets a group keep a shared restaurant wishlist, scoped separately per LINE group, multi-person room, and direct chat.
+Built **Eatarai** (เมื่อไรจะไปกิน — "When are we going to eat?"), a LINE bot for keeping a shared restaurant wishlist. Each LINE group, room, and direct chat has its own list. People can add restaurants, remove them after a visit, and open saved locations in Google Maps from the shared list.
+
+<div class="row">
+    <div class="col-sm-8 offset-sm-2 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/eatarai_wishlist.png" title="Eatarai restaurant wishlist in LINE" alt="LINE message showing a shared restaurant wishlist with Google Maps links" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    The bot posts the latest restaurant list in LINE, with a map link for each saved location.
+</div>
 
 ---
 
@@ -18,18 +27,20 @@ Built **Eatarai** (เมื่อไรจะไปกิน — "When are we g
 
 ### Technical Approach
 
-- **Serverless Architecture**: Runs on a **Cloudflare Worker**, communicating with **Supabase** entirely over REST/RPC (no direct Postgres TCP connection), which fits the Worker's stateless request runtime
-- **LIFF-Based Map Flow**: A LINE LIFF mini-app lets the requesting user pick a location (current location or a map picker), search **Google Places**, and attach the chosen branch to a wishlist item
-- **Cost-Controlled Google API Usage**: Google Places Text Search only fires after a user selects a location in the LIFF flow — never on simple add/remove/list commands — with per-chat and per-day quotas enforced atomically via a Postgres advisory-lock RPC
-- **Session Security**: LIFF sessions are bound to `chat_id + owner_user_id`, so a leaked LIFF URL can't be used by anyone else to read or modify the list
+- **Serverless Backend**: A **Cloudflare Worker** receives LINE webhooks and reads or writes restaurant lists through **Supabase REST/RPC**, backed by PostgreSQL with row-level security
+- **LIFF Restaurant Search**: A LINE LIFF page uses the member's current location to search nearby branches with **Google Places Text Search**; selected branches are saved with map links
+- **Controlled API Usage**: Text commands to add, remove, or list restaurants do not call Google Places. LIFF searches use daily limits and server-side rate limiting
+- **Chat Updates**: A Cloudflare Durable Object coordinates publishing the latest list after changes, so members see an updated list in their LINE chat
 
 ---
 
 ## Key Features
 
-- **Shared Wishlist Commands**: Add, remove, mark-as-eaten, and list restaurants directly in chat
-- **Map Attachment**: Attach a verified Google Maps link to a wishlist item via the LIFF flow
-- **Scoped Storage**: Each LINE group, room, and direct chat keeps its own independent list
+- **Chat Commands**: Mention the bot to show the list, add a restaurant, remove one, or mark it as eaten
+- **Shared LIFF Menu**: Chat members can open the add/remove menu for five minutes; each member gets a separate, single-use session
+- **Flexible Removal**: If a restaurant name is abbreviated or close to another name, the bot asks which item to remove
+- **LIFF Menu**: Add restaurants by searching nearby branches or select multiple items to remove through a LINE mini-app
+- **Map Links**: Saved places appear in the list with links to Google Maps
 
 ---
 
@@ -37,7 +48,7 @@ Built **Eatarai** (เมื่อไรจะไปกิน — "When are we g
 
 | Category | Tools |
 |----------|-------|
-| **Runtime** | Cloudflare Workers, TypeScript |
+| **Runtime** | Cloudflare Workers, Durable Objects, TypeScript |
 | **Backend & DB** | Supabase (PostgreSQL, RPC) |
 | **Messaging** | LINE Messaging API, LINE LIFF |
 | **External APIs** | Google Places API (Text Search) |
